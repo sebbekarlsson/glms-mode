@@ -1,7 +1,7 @@
 (setq glms-font-lock-keywords
       (let* (
             ;; define several category of keywords
-            (x-keywords '("typedef" "break" "while" "for" "return" "for" "if" "else" "switch"))
+            (x-keywords '("typedef" "break" "while" "for" "return" "for" "if" "else" "switch" "import" "as"))
             (x-types '("bool" "enum" "struct" "function" "number" "object" "string" "array" "image" "vec2" "vec3" "vec4"))
             (x-constants '("PI" "TAU" "true" "false"))
             (x-functions 
