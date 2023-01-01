@@ -12,6 +12,9 @@
                 "tan"
                 "atan"
                 "fract"
+                "smoothstep"
+                "mat4"
+                "mat3"
                 "file"
                 "cross"
                 "dot"
@@ -29,6 +32,8 @@
                 "abs"
                 "distance"
                 "length"
+                "perspective"
+                "ortho"
                 ))
 
             ;; generate regex string for each category of keywords
