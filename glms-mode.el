@@ -34,6 +34,9 @@
                 "length"
                 "perspective"
                 "ortho"
+                "quatFor"
+                "cantor"
+                "decant"
                 ))
 
             ;; generate regex string for each category of keywords
