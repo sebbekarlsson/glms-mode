@@ -2,10 +2,11 @@
       (let* (
             ;; define several category of keywords
             (x-keywords '("typedef" "break" "while" "for" "return" "for" "if" "else" "switch" "import" "as"))
-            (x-types '("bool" "enum" "struct" "function" "number" "object" "string" "array" "image" "vec2" "vec3" "vec4" "iterator" "int" "float"))
+            (x-types '("bool" "enum" "struct" "function" "number" "object" "string" "array" "image" "vec2" "vec3" "vec4" "iterator" "int" "float" "json" "response"))
             (x-constants '("PI" "TAU" "true" "false" "null"))
             (x-functions 
               '(
+                "fetch"
                 "print"
                 "cos"
                 "sin"
